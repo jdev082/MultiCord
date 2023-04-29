@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiCord - Interface</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <webview id="view" src="https://discord.com/login"></webview>
+    <div id="sidebar" class="hidden">
+        <h1>Branch</h1>
+        <select name="versions" id="vers">
+            <option value="can">Canary</option>
+            <option value="stab">Stable</option>
+            <option value="beta">Beta</option>
+        </select>
+    </div>
+    <div id="bottombar">
+        <button id="confbtn">Settings</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
