@@ -14,7 +14,6 @@ const createWindow = () => {
     })
 
     win.loadFile('ui/interface.html')
-    win.setMenu(null)
 }
 
 app.whenReady().then(() => {
